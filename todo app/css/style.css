@@ -1,0 +1,101 @@
+*{
+    
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: linear-gradient( to right, rgba(241, 241, 32, 0.512), rgb(255, 149, 0));
+}
+header{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    /* border: red solid; */
+    margin: 20px 0;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-group{
+    width: 50% !important;
+    flex-wrap: nowrap !important;
+    /* border-color: red !important; */
+    /* outline-color: red !important; */
+    /* background: 000; */
+}
+#Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.listTodo{
+    min-width: 50%;
+    padding: 0;
+    margin: 0;
+    
+}
+.divTodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 2px 0;
+    transition: all 1s ease;
+
+}
+.input-group #button-addon2:hover{
+    background: #5f5c5c !important;
+    color: black;
+}
+.listTodo li{
+    list-style: none;
+    flex: 1; 
+    padding: 1rem;
+    border-right: 1PX solid white;
+    
+    
+}
+.btnT , .btnD{
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    
+}
+.btnT { 
+    background-color: #43c843;
+    border-right: 1PX solid white;
+}
+.btnD {
+    background-color: #d11313;
+}
+.fa-check , .fa-trash{
+    pointer-events: none;
+}
+.done { 
+    text-decoration: line-through;
+    background-color: #43c843;
+    color: white;
+    
+}
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+.custom-select {
+    max-width: 30% !important;
+    /* margin-left: 5px !important; */
+}
+#inpTodo{
+    /* flex: 1; */
+    width: 70%;
+}
